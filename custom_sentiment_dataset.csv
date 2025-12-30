@@ -1,0 +1,21 @@
+id,text,language_type,gold_label
+1,Good night 😊,English,positive
+2,I am feeling very sad today,English,negative
+3,The weather is okay,English,neutral
+4,শুভ রাত্রি 😊,Bengali,positive
+5,আজ মনটা খুব খারাপ,Bengali,negative
+6,আজ আবহাওয়া মোটামুটি,Bengali,neutral
+7,Good না লাগতেছে আজ,CodeMixed,negative
+8,আজ presentation ta ভালো হয়েছে 😊,CodeMixed,positive
+9,Exam টা okay ছিল,CodeMixed,neutral
+10,I love বাংলাদেশের মানুষ ❤️,CodeMixed,positive
+11,This service is terrible 😡,English,negative
+12,আজ খুব ভালো লাগছে,Bengali,positive
+13,Meeting টা খুব বোরিং ছিল,CodeMixed,negative
+14,The movie was just average,English,neutral
+15,আমি আজ খুব খুশি,Bengali,positive
+16,Work টা ঠিকঠাকই ছিল,CodeMixed,neutral
+17,What a fantastic experience!,English,positive
+18,আমি আজ খুব দুঃখিত,Bengali,negative
+19,Project টা মোটামুটি ভালো হয়েছে,CodeMixed,positive
+20,The food was disgusting 🤢,English,negative
