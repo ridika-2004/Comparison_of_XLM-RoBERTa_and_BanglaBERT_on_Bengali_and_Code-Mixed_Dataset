@@ -1,0 +1,56 @@
+======================================================================
+MOTAMOT DATASET ANALYSIS REPORT
+Generated: 2026-02-24 17:33:54
+======================================================================
+
+1. DATASET OVERVIEW
+--------------------------------------------------
+Total samples: 7058
+Features: ['text', 'label', 'text_length', 'word_count']
+
+2. DATA SPLITS
+--------------------------------------------------
+Train: 5647 (80.01%)
+Val:   705 (9.99%)
+Test:  706 (10.00%)
+
+3. CLASS DISTRIBUTION
+--------------------------------------------------
+Overall:
+  Negative (0): 2926 (41.46%)
+  Positive (1): 4132 (58.54%)
+
+  Train:
+    Neg: 2341 (41.46%), Pos: 3306 (58.54%)
+  Validation:
+    Neg: 292 (41.42%), Pos: 413 (58.58%)
+  Test:
+    Neg: 293 (41.50%), Pos: 413 (58.50%)
+
+4. TEXT LENGTH STATISTICS
+--------------------------------------------------
+Characters - Min: 29, Max: 24267, Mean: 1354.82, Median: 1176.00
+Words - Min: 4, Max: 3566, Mean: 201.31, Median: 175.00
+
+5. DETAILED SPLIT STATISTICS
+--------------------------------------------------
+
+Train:
+  Samples: 5647
+  Text length - Min: 29, Max: 11397, Mean: 1239.90
+  Word count  - Min: 4, Max: 1670, Mean: 185.25
+
+Validation:
+  Samples: 705
+  Text length - Min: 382, Max: 8488, Mean: 1876.37
+  Word count  - Min: 54, Max: 1277, Mean: 272.71
+
+Test:
+  Samples: 706
+  Text length - Min: 296, Max: 24267, Mean: 1753.23
+  Word count  - Min: 41, Max: 3566, Mean: 258.50
+
+6. DATA QUALITY
+--------------------------------------------------
+Missing values: 0
+Duplicate texts: 107
