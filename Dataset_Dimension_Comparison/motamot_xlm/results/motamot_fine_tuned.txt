@@ -1,0 +1,31 @@
+MODEL: cardiffnlp/twitter-xlm-roberta-base-sentiment
+DATASET: Motamot (binary: 0=NEG, 1=POS)
+EVALUATION: Fine-tuned
+Max_len=128, Batch=16, Epochs=3, LR=2e-05, Seed=42
+
+Test samples: 706
+
+Accuracy:  0.8569
+Precision: 0.8900
+Recall:    0.8620
+F1-score:  0.8758
+
+Confusion Matrix [ [TN FP], [FN TP] ]:
+[[249  44]
+ [ 57 356]]
+
+Per-class breakdown:
+True Negatives (TN): 249
+False Positives (FP): 44
+False Negatives (FN): 57
+True Positives (TP): 356
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         NEG       0.81      0.85      0.83       293
+         POS       0.89      0.86      0.88       413
+
+    accuracy                           0.86       706
+   macro avg       0.85      0.86      0.85       706
+weighted avg       0.86      0.86      0.86       706
