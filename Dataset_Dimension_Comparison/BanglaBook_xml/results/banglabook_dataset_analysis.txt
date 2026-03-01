@@ -1,0 +1,16 @@
+======================================================================
+BANGLA BOOK DATASET ANALYSIS REPORT
+Generated: 2026-03-01 12:57:37
+======================================================================
+
+Total samples: 151261
+Train: 105882 (70.00%)
+Val:   15126 (10.00%)
+Test:  30253 (20.00%)
+
+Negative (0): 9674 (6.40%)
+Positive (1): 141587 (93.60%)
+
+Text length - Min: 1, Max: 267, Mean: 107.54
+Word count  - Min: 1, Max: 64, Mean: 17.53
+Duplicate texts: 56357

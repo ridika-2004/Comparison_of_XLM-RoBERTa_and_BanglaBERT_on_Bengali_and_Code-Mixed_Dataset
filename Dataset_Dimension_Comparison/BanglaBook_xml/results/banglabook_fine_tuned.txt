@@ -1,0 +1,31 @@
+MODEL: cardiffnlp/twitter-xlm-roberta-base-sentiment
+DATASET: BanglaBook (binary: 0=NEG, 1=POS)
+EVALUATION: Fine-tuned
+Max_len=128, Batch=16, Epochs=3, LR=2e-05, Seed=42
+
+Test samples: 30253
+
+Accuracy:  0.9680
+Precision: 0.9733
+Recall:    0.9930
+F1-score:  0.9831
+
+Confusion Matrix [ [TN FP], [FN TP] ]:
+[[ 1165   770]
+ [  199 28119]]
+
+Per-class breakdown:
+True Negatives (TN): 1165
+False Positives (FP): 770
+False Negatives (FN): 199
+True Positives (TP): 28119
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         NEG       0.85      0.60      0.71      1935
+         POS       0.97      0.99      0.98     28318
+
+    accuracy                           0.97     30253
+   macro avg       0.91      0.80      0.84     30253
+weighted avg       0.97      0.97      0.97     30253
