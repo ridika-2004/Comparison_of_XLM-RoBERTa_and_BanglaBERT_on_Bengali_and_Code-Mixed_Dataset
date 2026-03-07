@@ -1,0 +1,35 @@
+
+======================================================================
+SENTNOB (BINARY) DATASET ANALYSIS REPORT
+Generated: 2026-03-07 03:56:53
+======================================================================
+
+1. DATASET OVERVIEW
+--------------------------------------------------
+Total samples: 12119
+Target Task: Binary Sentiment Analysis (0: NEG, 1: POS)
+
+2. DATA SPLITS
+--------------------------------------------------
+Train: 9681 (79.88%)
+Val:   1213 (10.01%)
+Test:  1225 (10.11%)
+
+3. CLASS DISTRIBUTION
+--------------------------------------------------
+Overall:
+  Negative (0): 5709 (47.11%)
+  Positive (1): 6410 (52.89%)
+
+  Train Split:  Neg: 4548 (46.98%), Pos: 5133 (53.02%)
+  Test Split:   Neg: 571 (46.61%), Pos: 654 (53.39%)
+
+4. TEXT LENGTH STATISTICS (Overall)
+--------------------------------------------------
+Characters - Min: 12, Max: 320, Mean: 83.83
+Words      - Min: 2, Max: 93, Mean: 16.07
+
+5. DATA QUALITY
+--------------------------------------------------
+Missing values: 0
+Duplicate texts: 595
