@@ -1,0 +1,13 @@
+MODEL: sagorsarker/bangla-bert-base
+DATASET: BanglaBook (binary: 0=NEG, 1=POS)
+EVALUATION: Zero-shot
+
+Test samples: 30253
+Accuracy: 0.8716
+F1-score: 0.9308
+Precision: 0.9398
+Recall: 0.9219
+
+Confusion Matrix [ [TN FP], [FN TP] ]:
+[[  264  1671]
+ [ 2213 26105]]

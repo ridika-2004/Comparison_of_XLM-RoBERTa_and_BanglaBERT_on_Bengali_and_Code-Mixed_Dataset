@@ -1,0 +1,31 @@
+MODEL: sagorsarker/bangla-bert-base
+DATASET: BanglaBook (binary: 0=NEG, 1=POS)
+EVALUATION: Fine-tuned
+Max_len=128, Batch=16, Epochs=3, LR=2e-05, Seed=42
+
+Test samples: 30253
+
+Accuracy: 0.9661
+Precision: 0.9699
+Recall: 0.9946
+F1-score: 0.9821
+
+Confusion Matrix [ [TN FP], [FN TP] ]:
+[[ 1061   874]
+ [  153 28165]]
+
+Per-class breakdown:
+True Negatives (TN): 1061
+False Positives (FP): 874
+False Negatives (FN): 153
+True Positives (TP): 28165
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         NEG       0.87      0.55      0.67      1935
+         POS       0.97      0.99      0.98     28318
+
+    accuracy                           0.97     30253
+   macro avg       0.92      0.77      0.83     30253
+weighted avg       0.96      0.97      0.96     30253
