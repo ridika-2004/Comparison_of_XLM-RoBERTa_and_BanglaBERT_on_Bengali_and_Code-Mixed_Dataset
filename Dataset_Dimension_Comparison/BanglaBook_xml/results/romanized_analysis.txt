@@ -1,0 +1,9 @@
+ROMANIZED VS NATIVE BANGLA PERFORMANCE
+==================================================
+Native samples: 28905
+Native Accuracy: 0.9686
+Native F1: 0.9834
+
+Romanized samples: 1348
+Romanized Accuracy: 0.9547
+Romanized F1: 0.9760
