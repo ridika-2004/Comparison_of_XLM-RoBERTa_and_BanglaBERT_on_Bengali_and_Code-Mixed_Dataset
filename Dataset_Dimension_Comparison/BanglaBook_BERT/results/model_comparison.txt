@@ -1,0 +1,10 @@
+COMPARISON: Bangla-BERT vs XLM-RoBERTa on BanglaBook
+============================================================
+
+XLM-RoBERTa Accuracy: 0.9680
+Bangla-BERT Accuracy: 0.9661
+Difference: +0.0019
+
+XLM-RoBERTa F1: 0.9831
+Bangla-BERT F1: 0.9821
+Difference: +0.0010
