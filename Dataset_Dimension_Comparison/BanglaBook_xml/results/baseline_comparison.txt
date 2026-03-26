@@ -1,0 +1,10 @@
+COMPARISON WITH PAPER'S BASELINES (Negative Class F1)
+==================================================
+Random Forest (word 2-3gram): 0.56
+SVM (word 2-3gram): 0.4
+Logistic Regression (word 2-3gram): 0.53
+Multinomial NB (word 2-3gram): 0.23
+XGBoost (word 2-3gram): 0.23
+Bangla-BERT (base): 0.6
+Bangla-BERT (large): 0.72
+Our XLM-RoBERTa: 0.7062746286753562

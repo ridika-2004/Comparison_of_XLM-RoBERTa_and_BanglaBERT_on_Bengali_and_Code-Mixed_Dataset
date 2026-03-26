@@ -1,0 +1,65 @@
+
+================================================================
+BANGLA BOOK SENTIMENT ANALYSIS - COMPLETE SUMMARY
+================================================================
+
+DATASET OVERVIEW:
+- Total samples (binary): 151,261
+- Train/Val/Test: 105882/15126/30253
+- Class distribution: Negative=9,674 (6.40%),
+  Positive=141,587 (93.60%)
+- Avg text length: 281 chars
+
+================================================================
+FINE-TUNED MODEL (XLM-RoBERTa) RESULTS:
+================================================================
+Test samples: 30,253
+Accuracy: 0.9680 (96.80%)
+Weighted F1: 0.9654
+
+Per-class F1:
+  Negative: 0.7063
+  Positive: 0.9831
+
+Confusion Matrix:
+           Predicted
+           NEG    POS
+Actual NEG  1165    770
+Actual POS   199  28119
+
+================================================================
+COMPARISON WITH PAPER'S BASELINES:
+================================================================
+Paper's best (Bangla-BERT large) - Negative F1: 0.720
+Our XLM-RoBERTa - Negative F1: 0.7063
+Difference: -0.0137
+
+================================================================
+KEY FINDINGS:
+================================================================
+1. Word overlap: 70.34% of negative words appear in positive class
+   (Paper reported: 79.83%)
+
+2. Romanized Bangla samples: 1348 (4.5%)
+
+3. Total misclassified: 969 (3.20%)
+   - False Positives: 770
+   - False Negatives: 199
+
+================================================================
+OUTPUT FILES:
+================================================================
+All results saved in: /content/drive/MyDrive/XMLROBERT/Dataset_Dimension_Comparison/results
+
+Files generated:
+- banglabook_fine_tuned.txt (evaluation results)
+- banglabook_finetuned_predictions.csv (all predictions)
+- confusion_matrix.png (visualization)
+- baseline_comparison.txt (comparison with paper)
+- word_overlap_analysis.txt (vocabulary overlap)
+- romanized_analysis.txt (native vs romanized)
+- category_performance.csv (if category data exists)
+- banglabook_misclassified.csv (error analysis)
+- banglabook_summary.txt (this summary)
+
+================================================================

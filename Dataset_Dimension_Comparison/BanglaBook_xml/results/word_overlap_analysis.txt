@@ -1,0 +1,31 @@
+WORD OVERLAP ANALYSIS
+==================================================
+Unique Negative words: 16556
+Unique Positive words: 115653
+Shared words: 11645
+Overlap percentage: 70.34%
+Paper's reported: 79.83%
+
+Top 10 Negative words:
+  বই: 2201
+  না: 1704
+  এই: 1320
+  ভালো: 1072
+  বইটি: 1008
+  ভাল: 780
+  অনুবাদ: 759
+  করে: 744
+  আমি: 740
+  এর: 734
+
+Top 10 Positive words:
+  বই: 37493
+  এই: 22194
+  বইটি: 21933
+  একটি: 18332
+  জন্য: 16901
+  ভালো: 14306
+  অনেক: 14034
+  ভাল: 12526
+  এবং: 12470
+  খুব: 11716
