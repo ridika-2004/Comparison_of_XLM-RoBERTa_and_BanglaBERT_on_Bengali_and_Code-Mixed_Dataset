@@ -7,6 +7,8 @@ This repository presents a comprehensive comparative analysis of two transformer
 **Authors:** Ramisa Anan Rahman, Ridika Naznin, Zannatul Adon Sabiha, Afrin Jahan Era, Ayesha Binte Anis  
 **Affiliation:** Department of Computer Science and Engineering, Islamic University of Technology, Dhaka, Bangladesh
 
+**Read the Paper:** [Paper](https://github.com/ridika-2004/Comparison_of_XLM-RoBERTa_and_BanglaBERT_on_Bengali_and_Code-Mixed_Dataset/blob/main/Comparative%20Performance%20of%20XLM-RoBERTa%20and%20BanglaBERT%20on%20Pure%20Bengali%20and%20Code-Mixed%20Text.pdf)
+
 
 ---
 
