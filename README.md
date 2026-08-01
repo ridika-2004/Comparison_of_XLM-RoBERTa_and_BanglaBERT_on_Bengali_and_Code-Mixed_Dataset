@@ -97,19 +97,33 @@ Models were directly applied to datasets without any task-specific training to a
 | **BanglaBERT** | **88.66%** | **88.27%** | **88.09%** | 88.49% |
 | XLM-RoBERTa | 85.69% | 87.58% | 86.20% | **89.00%** |
 
-**Training Epochs (BanglaBERT):**
+<table>
+<tr>
+<td valign="top">
+
+**Training Epochs (BanglaBERT)**
+
 | Epoch | Training Loss | Validation Loss | Accuracy | F1-Score |
 |-------|---------------|-----------------|----------|----------|
 | 1 | 56.22% | 42.00% | 80.99% | 83.25% |
 | 2 | 39.69% | 39.07% | 82.27% | 84.96% |
 | 3 | 32.83% | 44.34% | 81.70% | 85.26% |
 
-**Training Epochs (XLM-RoBERTa):**
+</td>
+
+<td valign="top">
+
+**Training Epochs (XLM-RoBERTa)**
+
 | Epoch | Training Loss | Validation Loss | Accuracy | F1-Score |
 |-------|---------------|-----------------|----------|----------|
 | 1 | 50.16% | 47.98% | 77.87% | 81.69% |
 | 2 | 43.68% | 47.30% | 79.01% | 82.13% |
 | 3 | 32.96% | 50.83% | 79.01% | 82.42% |
+
+</td>
+</tr>
+</table>
 
 ### SentNoB Dataset
 
@@ -118,19 +132,33 @@ Models were directly applied to datasets without any task-specific training to a
 | **BanglaBERT** | **86.44%** | **86.41%** |
 | XLM-RoBERTa | 86.00% | 86.00% |
 
-**Negative Class Performance:**
+<table>
+<tr>
+<td valign="top">
+
+**Negative Class Performance**
+
 | Metric | BanglaBERT | XLM-RoBERTa |
 |--------|------------|-------------|
 | F1-Score | 0.85 | 0.85 |
 | Recall | 0.83 | 0.83 |
 | Precision | 0.87 | 0.87 |
 
-**Positive Class Performance:**
+</td>
+
+<td valign="top">
+
+**Positive Class Performance**
+
 | Metric | BanglaBERT | XLM-RoBERTa |
 |--------|------------|-------------|
 | F1-Score | 0.88 | 0.88 |
 | Recall | 0.89 | 0.89 |
 | Precision | 0.86 | 0.86 |
+
+</td>
+</tr>
+</table>
 
 **Training Epochs (XLM-RoBERTa):**
 | Epoch | Training Loss | Validation Loss | Accuracy | F1-Score |
@@ -146,19 +174,33 @@ Models were directly applied to datasets without any task-specific training to a
 | **XLM-RoBERTa** | **96.80%** | **98.31%** | 99.30% | **97.33%** |
 | BanglaBERT | 96.61% | 98.21% | **99.46%** | 96.99% |
 
-**Training Epochs (XLM-RoBERTa):**
+<table>
+<tr>
+<td valign="top">
+
+**Training Epochs (XLM-RoBERTa)**
+
 | Epoch | Training Loss | Validation Loss | Accuracy | F1-Score |
 |-------|---------------|-----------------|----------|----------|
 | 1 | 0.1568 | 0.1501 | 96.25% | 98.03% |
 | 2 | 0.1065 | 0.1421 | 96.59% | 98.20% |
 | 3 | 0.1111 | 0.1512 | 96.72% | 98.27% |
 
-**Training Epochs (BanglaBERT):**
+</td>
+
+<td valign="top">
+
+**Training Epochs (BanglaBERT)**
+
 | Epoch | Training Loss | Validation Loss | Accuracy | F1-Score |
 |-------|---------------|-----------------|----------|----------|
 | 1 | 0.1409 | 0.1652 | 96.00% | 97.89% |
 | 2 | 0.1106 | 0.1472 | 96.50% | 98.15% |
 | 3 | 0.0964 | 0.1690 | 96.50% | 98.15% |
+
+</td>
+</tr>
+</table>
 
 <img src="https://github.com/ridika-2004/Comparison_of_XLM-RoBERTa_and_BanglaBERT_on_Bengali_and_Code-Mixed_Dataset/blob/main/images/fig3.png" width="100px" />  | <img src="https://github.com/ridika-2004/Comparison_of_XLM-RoBERTa_and_BanglaBERT_on_Bengali_and_Code-Mixed_Dataset/blob/main/images/fig6.png" width="100px" />  | <img src="https://github.com/ridika-2004/Comparison_of_XLM-RoBERTa_and_BanglaBERT_on_Bengali_and_Code-Mixed_Dataset/blob/main/images/fig9.png" width="100px" />  | <img src="https://github.com/ridika-2004/Comparison_of_XLM-RoBERTa_and_BanglaBERT_on_Bengali_and_Code-Mixed_Dataset/blob/main/images/fig12.png" width="100px" />  | <img src="https://github.com/ridika-2004/Comparison_of_XLM-RoBERTa_and_BanglaBERT_on_Bengali_and_Code-Mixed_Dataset/blob/main/images/fig15.jpeg" width="100px" /> | <img src="https://github.com/ridika-2004/Comparison_of_XLM-RoBERTa_and_BanglaBERT_on_Bengali_and_Code-Mixed_Dataset/blob/main/images/fig18.jpeg" width="100px" /> |
 | :-: | :-: | :-: | :-: | :-: | :-: |
