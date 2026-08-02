@@ -1,9 +1,5 @@
 # Comparison of XLM-RoBERTa and BanglaBERT on Bengali and Code-Mixed Datasets
 
-## Project Overview
-
-This repository presents a comprehensive comparative analysis of two transformer-based models—**XLM-RoBERTa** (multilingual) and **BanglaBERT** (monolingual)—for sentiment classification on Bengali and code-mixed datasets. The study evaluates model performance across three benchmark datasets: **Motamot** (political news comments), **SentNoB** (social media comments), and **BanglaBook** (book reviews). Experiments are conducted under both zero-shot and fine-tuned settings to assess inherent linguistic understanding and task-specific adaptability.
-
 **Authors:** Ramisa Anan Rahman, Ridika Naznin, Zannatul Adon Sabiha, Afrin Jahan Era, Ayesha Binte Anis  
 **Affiliation:** Department of Computer Science and Engineering, Islamic University of Technology, Dhaka, Bangladesh
 
