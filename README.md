@@ -17,34 +17,102 @@
 
 A sentiment analysis dataset focused on political opinions expressed by users across various platforms. It captures diverse public perspectives, including support, criticism, and neutral commentary on political topics.
 
-| Split | Positive | Negative | Total |
-|-------|----------|----------|-------|
-| Train | 3,306 | 2,341 | 5,647 |
-| Validation | 413 | 292 | 705 |
-| Test | 413 | 293 | 706 |
-| **Total** | 4,132 (58.54%) | 2,926 (41.46%) | **7,058** |
-
 ### 2. SentNoB Dataset
 
 A sentiment analysis dataset constructed from real-world social media comments, reflecting diverse public opinions across multiple domains. It includes data from 13 different topics, such as politics, education, and technology.
-
-| Split | Positive | Negative | Neutral | Total |
-|-------|----------|----------|---------|-------|
-| Train | 5,133 | 4,548 | 2,894 | 12,575 |
-| Validation | 623 | 590 | 354 | 1,567 |
-| Test | 654 | 571 | 361 | 1,586 |
-| **Total** | 6,410 (40.8%) | 5,709 (36.3%) | 3,609 (22.9%) | **15,728** |
 
 ### 3. BanglaBook Dataset
 
 A large-scale sentiment analysis dataset composed of book reviews collected from popular online bookstores such as Rokomari and Wafilife. The reviews are originally associated with user ratings, which are subsequently mapped into sentiment categories.
 
-| Split | Positive | Negative | Total |
-|-------|----------|----------|-------|
-| Train | 99,110 | 6,772 | 105,882 |
-| Validation | 14,159 | 967 | 15,126 |
-| Test | 28,318 | 1,935 | 30,253 |
-| **Total** | 141,587 (93.60%) | 9,674 (6.40%) | **151,261** |
+<table>
+  <tr>
+    <th colspan="4">Motamot Dataset</th>
+    <th colspan="4">BanglaBook Dataset</th>
+    <th colspan="5">SentNoB Dataset</th>
+  </tr>
+
+  <tr>
+    <th>Split</th>
+    <th>Positive</th>
+    <th>Negative</th>
+    <th>Total</th>
+    <th>Split</th>
+    <th>Positive</th>
+    <th>Negative</th>
+    <th>Total</th>
+    <th>Split</th>
+    <th>Positive</th>
+    <th>Negative</th>
+    <th>Neutral</th>
+    <th>Total</th>
+  </tr>
+
+  <tr>
+    <td>Train</td>
+    <td>3,306</td>
+    <td>2,341</td>
+    <td>5,647</td>
+    <td>Train</td>
+    <td>99,110</td>
+    <td>6,772</td>
+    <td>105,882</td>
+    <td>Train</td>
+    <td>5,133</td>
+    <td>4,548</td>
+    <td>2,894</td>
+    <td>12,575</td>
+  </tr>
+
+  <tr>
+    <td>Validation</td>
+    <td>413</td>
+    <td>292</td>
+    <td>705</td>
+    <td>Validation</td>
+    <td>14,159</td>
+    <td>967</td>
+    <td>15,126</td>
+    <td>Validation</td>
+    <td>623</td>
+    <td>590</td>
+    <td>354</td>
+    <td>1,567</td>
+  </tr>
+
+  <tr>
+    <td>Test</td>
+    <td>413</td>
+    <td>293</td>
+    <td>706</td>
+    <td>Test</td>
+    <td>28,318</td>
+    <td>1,935</td>
+    <td>30,253</td>
+    <td>Test</td>
+    <td>654</td>
+    <td>571</td>
+    <td>361</td>
+    <td>1,586</td>
+  </tr>
+
+  <tr>
+    <th>Total</th>
+    <th>4,132 (58.54%)</th>
+    <th>2,926 (41.46%)</th>
+    <th>7,058</th>
+    <th>Total</th>
+    <th>141,587 (93.60%)</th>
+    <th>9,674 (6.40%)</th>
+    <th>151,261</th>
+    <th>Total</th>
+    <th>6,410 (40.8%)</th>
+    <th>5,709 (36.3%)</th>
+    <th>3,609 (22.9%)</th>
+    <th>15,728</th>
+  </tr>
+
+</table>
 
 ## Implementation Details
 
